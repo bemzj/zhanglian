@@ -1,0 +1,74 @@
+body{
+  background-color: #f7f7f7;
+}
+#main{
+  min-height: 520px;
+  margin: 20px auto 50px;
+  background-color: white;
+  .main{
+    width: 360px;
+    margin: 0 auto;
+    .exchangePhone{
+      font-size: 24px;
+      line-height: 24px;
+      color: #323232;
+      padding: 40px 0;
+    }
+    .inputBoxOut{
+      width: 100%;
+      margin-bottom: 20px;
+    }
+
+    .inputBox{
+      width: 100%;
+      box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+      height: 44px;
+      border: 1px solid #e7e7e7;
+      input{
+        padding:0 18px;
+        border: 0;
+        height: 42px;
+        font-size: 14px;
+        width: 100%;
+        box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+      }
+      input::placeholder{
+        color: #c9c9c9;
+      }
+      input::-webkit-input-placeholder{
+        color: #c9c9c9;
+      }
+      input::-moz-placeholder{
+        color: #c9c9c9;
+      }
+      inpuy:-ms-input-placeholder{
+        color: #c9c9c9;
+      }
+      button{
+        width: 100%;
+        height: 100%;
+        font-size: 14px;
+        background-color: transparent;
+      }
+
+    }
+    .now{
+      background-color: #006eff;
+      border-color: #006eff;
+      button{
+        color: white;
+        font-size: 16px;
+
+      }
+
+    }
+    .floatl{
+      width: 230px;
+    }
+    .floatr{
+      width: 110px;
+    }
+  }
+}

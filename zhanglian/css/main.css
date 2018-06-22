@@ -27,15 +27,17 @@ body,html{background-color: #f7f7f7;overflow-x: hidden;min-width:1200px;}
 .search{font-size: 14px;color: #caced1;background-color: rgba(0,0,0,0);outline: none;width: 165px;box-sizing:border-box;-webkit-box-sizing:border-box;padding-left: 5px;border:0;}
 .icon-search{position: absolute;width: 16px;height: 16px;right: 10px;top:50%;margin-top: -8px;}
 .user-num{font-size: 14px;color: #ffffff;margin-left: 14px;cursor: pointer;}
-
+.bodyBox {width: 1060px; margin: 0 auto; }
 /*<!-- 底部 -->*/
 .footer{width: 1920px;margin: 0 auto 0;background-color: #222c3a;padding: 39px 0 34px;}
 .footer-nav{text-align: center;font-size: 12px;}
 .footer-nav a{color: #ffffff;margin: 0 6px;}
 .footer-nav i{color: #ffffff;margin: 0 6px;}
 .explain{text-align: center;font-size: 12px;color: #ffffff;margin-top: 12px;}
-
-
+.clearfloat:after {display: block;clear: both;content: "";visibility: hidden;height: 0; }
+.clearfloat{zoom: 1;}
+.floatl{float: left}
+.floatr{float: right}
 /*===================================*/
 /*===============首页================*/
 /*===================================*/

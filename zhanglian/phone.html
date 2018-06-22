@@ -1,0 +1,111 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="viewport" content="target-densitydpi=device-dpi,width=1200,user-scalable=yes" />
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="http://frozenui.github.io/frozenui/css/frozen.css" />
+	<link rel="stylesheet" type="text/css" href="https://cdn.bootcss.com/Swiper/4.3.0/css/swiper.min.css">
+	<link rel="stylesheet" type="text/css" href="./css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="./css/main.css">
+	<link rel="stylesheet" type="text/css" href="./css/phone.css">
+	<!-- jQuery -->
+	<script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+	<script type="text/javascript" src='https://cdn.bootcss.com/Swiper/4.3.0/js/swiper.min.js'></script>
+	<script type="text/javascript" src=''></script>
+</head>
+<body>
+<div class="container">
+	<!-- 头部 -->
+	<div class="header">
+		<nav class='header-nav div1060 ui-flex ui-flex-align-center'>
+			<!-- logo图标 -->
+			<img src="./images/logo.png" alt="" class="logo" />
+			<!-- 导航内容 -->
+			<ul class="nav">
+				<li class="active">
+					<a href="javascript:;">首页</a>
+				</li>
+				<li>
+					<a href="javascript:;">新闻</a>
+				</li>
+				<li>
+					<a href="javascript:;">快递</a>
+				</li>
+				<li>
+					<a href="javascript:;">园区</a>
+				</li>
+				<li>
+					<a href="javascript:;">金融</a>
+				</li>
+				<li>
+					<a href="javascript:;">冷链</a>
+				</li>
+				<li>
+					<a href="javascript:;">专题</a>
+				</li>
+				<li>
+					<a href="javascript:;">社会</a>
+				</li>
+				<li>
+					<a href="javascript:;">法制专题</a>
+				</li>
+				<li>
+					<a href="javascript:;">更多 <i class='fa fa-caret-down fa-lg'></i></a>
+				</li>
+			</ul>
+			<!-- 搜索框 -->
+			<div class="search-frame ui-flex ui-flex-align-center">
+				<input type="text" class="search" placeholder='请输入搜索内容' />
+				<img src="./images/icon-search.png" alt="" class="icon-search" />
+			</div>
+			<!-- 账号 -->
+			<p class="user-num">136***96 <i class='fa fa-caret-down fa-lg'></i></p>
+		</nav>
+	</div>
+	<div id="main" class="bodyBox">
+		<div class="main">
+			<div class="phoneBox">
+				<div class="exchangePhone">
+					<p>绑定手机</p>
+				</div>
+				<div class="phoneBox">
+					<div class="inputBoxOut">
+						<div class="inputBox">
+							<input type="text" placeholder="手机号"/>
+						</div>
+					</div>
+					<div class="inputBoxOut clearfloat">
+						<div class="inputBox floatl">
+							<input type="text" placeholder="验证码"/>
+						</div>
+						<div class="inputBox floatr">
+							<button id="sendCode" >发送验证码</button>
+						</div>
+					</div>
+					<div class="inputBoxOut">
+						<div class="inputBox now">
+							<button>立即绑定</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="footer">
+		<div class="footer-nav">
+			<a href="javascript:;">关于我们</a><i>|</i><a href="javascript:;">联系我们</a><i>|</i><a href="javascript:;">版权声明</a><i>|</i><a href="javascript:;">法律顾问</a>
+			<p class="explain">©2018 北京掌链传媒科技有限公司 版权所有. 京ICP备00001111号</p>
+		</div>
+	</div>
+</div>
+<script>
+    $(function(){
+        $('.delete1').prevAll().remove();
+        $('.delete2').nextAll().remove();
+    });
+</script>
+</body>
+</html>
