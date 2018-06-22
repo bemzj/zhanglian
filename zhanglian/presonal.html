@@ -7,14 +7,10 @@
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
 	<title>Document</title>
 	<link rel="stylesheet" type="text/css" href="http://frozenui.github.io/frozenui/css/frozen.css" />
-	<link rel="stylesheet" type="text/css" href="https://cdn.bootcss.com/Swiper/4.3.0/css/swiper.min.css">
 	<link rel="stylesheet" type="text/css" href="./css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="./css/main.css">
+	<link rel="stylesheet" href="css/photoClip/photoClip.css" />
 	<link rel="stylesheet" type="text/css" href="./css/phone.css">
-	<!-- jQuery -->
-	<script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
-	<script type="text/javascript" src='https://cdn.bootcss.com/Swiper/4.3.0/js/swiper.min.js'></script>
-	<script type="text/javascript" src=''></script>
 </head>
 <body>
 <div class="container">
@@ -67,7 +63,8 @@
 	</div>
 	<div id="main" class="bodyBox">
 		<div class="main">
-			<div class="phoneBox">
+			<!--绑定手机-->
+			<div class="eBox" style="display: none">
 				<div class="exchangePhone">
 					<p>绑定手机</p>
 				</div>
@@ -92,6 +89,41 @@
 					</div>
 				</div>
 			</div>
+			<!--修改头像-->
+			<div class="echangeBox" style="display: none">
+				<div class="exchangePhone">
+					<p>绑定手机</p>
+				</div>
+				<div class="headBox clearfloat">
+					<div class="hbLeft floatl">
+						<p>头像</p>
+					</div>
+					<div class="hbRight floatl">
+						<div>
+							<input type="file" id="file" accept="image/gif,image/jpeg,image/jpg,image/png,image/svg"/>
+							<img src="images/bjhead.png"/>
+						</div>
+					</div>
+				</div>
+				<div class="phoneBox">
+					<div class="inputBoxOut myName">
+						<div class="inputBox">
+							<input type="text" placeholder="昵称" id="name" maxlength="10"/>
+							<span>0/10</span>
+						</div>
+					</div>
+					<div class="inputBoxOut">
+						<div class="inputBox now">
+							<button>立即绑定</button>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+		<div id="clipArea">
+			<button id="clipBtn">截取</button>
+			<button id="clipClose">取消</button>
 		</div>
 	</div>
 	<div class="footer">
@@ -100,12 +132,11 @@
 			<p class="explain">©2018 北京掌链传媒科技有限公司 版权所有. 京ICP备00001111号</p>
 		</div>
 	</div>
+	<script type="text/javascript" src="js/photoClip/jquery-2.1.1.min.js" type="text/javascript"></script>
+	<script type="text/javascript" src="js/photoClip/iscroll-zoom.js"></script>
+	<script type="text/javascript" src="js/photoClip/hammer.js"></script>
+	<script type="text/javascript" src="js/photoClip/jquery.photoClip.min.js"></script>
+	<script type="text/javascript" src='js/phone.js'></script>
 </div>
-<script>
-    $(function(){
-        $('.delete1').prevAll().remove();
-        $('.delete2').nextAll().remove();
-    });
-</script>
 </body>
 </html>

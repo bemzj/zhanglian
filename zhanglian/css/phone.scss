@@ -51,6 +51,7 @@ body{
         height: 100%;
         font-size: 14px;
         background-color: transparent;
+        cursor: pointer;
       }
 
     }
@@ -60,9 +61,7 @@ body{
       button{
         color: white;
         font-size: 16px;
-
       }
-
     }
     .floatl{
       width: 230px;
@@ -70,5 +69,83 @@ body{
     .floatr{
       width: 110px;
     }
+    .echangeBox{
+      .exchangePhone{
+        padding: 60px 0 37px;
+      }
+      .hbLeft{
+        width: auto;
+        font-size: 14px;
+        line-height: 14px;
+        padding: 18px 14px 18px 0;
+        color: #4d4d4d;
+      }
+      .hbRight{
+        position: relative;
+        >div{
+          width: 50px;
+          height: 50px;
+          overflow: hidden;
+          border-radius: 50%;
+          position: relative;
+          img{
+            width: 100%;
+          }
+        }
+        input{
+          position: absolute;
+          left: 0;
+          top: 0;
+          width: 100%;
+          height: 100%;
+          opacity: 0;
+        }
+      }
+      .headBox{
+        margin-bottom: 16px;
+      }
+      .hbRight::after{
+        position: absolute;
+        content: "上传修改";
+        left: 60px;
+        bottom:0px;
+        font-size: 12px;
+        color: #999999;
+      }
+      .myName{
+        position: relative;
+        .inputBox{
+          width: 318px;
+          margin-left: 42px;
+          position: relative;
+          span{
+            position: absolute;
+            right: 10px;
+            bottom: 2px;
+            font-size: 12px;
+            color: #C9C9C9;
+          }
+        }
+      }
+      .myName::after{
+        content: "昵称";
+        color: #4c4c4c;
+        font-size: 14px;
+        position: absolute;
+        left: 0;
+        top: 12px;
+
+      }
+    }
   }
+}
+#clipArea{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 400px;
+  background-color: white;
+  margin: -200px 0 0 -200px;
+  box-shadow: 2px 2px 1px rgba(0,0,0,0.2);
 }
