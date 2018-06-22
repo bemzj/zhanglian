@@ -10,10 +10,12 @@
     <link rel="stylesheet" type="text/css" href="https://cdn.bootcss.com/Swiper/4.3.0/css/swiper.min.css">
     <link rel="stylesheet" type="text/css" href="./css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="./css/main.css">
+    <link rel="stylesheet" type="text/css" href="./css/video-js.css">
     <link rel="stylesheet" href="css/video.css">
     <!-- jQuery -->
     <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
     <script type="text/javascript" src='https://cdn.bootcss.com/Swiper/4.3.0/js/swiper.min.js'></script>
+    <script src="js/video.min.js"></script>
 </head>
 <body>
 <div class="container">
@@ -106,7 +108,16 @@
                     </div>
                     <div>新华报</div>
                 </div>
-                <div class="left-video"></div>
+                <div class="left-video">
+                    <video id="my-video" class="video-js" controls preload="auto" width="660" height="330"
+                           poster="images/banner01.png" data-setup="{}">
+                        <source src="http://jq22com.qiniudn.com/jq22-sp.mp4" type="video/mp4">
+                        <p class="vjs-no-js">
+                            To view this video please enable JavaScript, and consider upgrading to a web browser that
+                            <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+                        </p>
+                    </video>
+                </div>
                 <div class="left-cont">
                     <p>上周末，支付宝母公司蚂蚁金服宣布将向银行、基金公司等金融机构开放花呗。早在今年 3 月，蚂蚁金服就曾表示，今年将探索开放花呗、借呗业务，尝试与金融机构合作。此前，支付宝已经开放了小额贷款服务借呗和余额宝。</p>
                     <p>5 月 4 日零时起，余额宝接入了以招商银行为股东的“博时现金收益货币 A”和以意大利意联银行为最大股东的“中欧滚钱宝货币 A”。在此之前，余额宝的货币基金销售仅由阿里巴巴控股的天弘基金提供。</p>
@@ -262,7 +273,11 @@
         $('.collect').click(function () {
             $(this).toggleClass('sel')
         })
-
+        var myPlayer = videojs('my-video');
+        videojs("my-video").ready(function(){
+            var myPlayer = this;
+            myPlayer.play();
+        });
     })
 </script>
 </body>

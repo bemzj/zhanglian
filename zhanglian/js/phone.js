@@ -19,7 +19,6 @@ $(function(){
     });
     //获取当前头像
     var preHead = $('#file').next('img').attr('src');
-
     $("#clipArea").photoClip({
         width: 200,
         height: 200,
@@ -28,6 +27,7 @@ $(function(){
         ok: "#clipBtn",
         loadStart: function() {
             $('#clipArea').show();
+            stop();
             //开启加载页面
         },
         loadComplete: function() {
@@ -35,15 +35,13 @@ $(function(){
             //关闭加载页面
         },
         clipFinish: function(dataURL) {
-           $('#clipBtn').click(function () {
-               $('#clipArea').hide();
-               $('#file').next('img').attr('src',dataURL);
-           });
-            $('#clipClose').click(function () {
-                $('#clipArea').hide();
-            });
+            $('#file').next('img').attr('src',dataURL);
+            $('#clipArea').hide();
         }
     });
+    $('#clipClose').click(function () {
+        $('#clipArea').hide();
+     });
     //修改昵称
     $('#name').on('input',function () {
         $(this).next('span').text($(this).val().length+'/10');
