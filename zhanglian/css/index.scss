@@ -138,3 +138,13 @@
 #count .login{
   margin-top: -176px;
 }
+.gudie-news-list-right h3 a{
+  color: #4d4d4d;
+}
+.gudie-news-list li:hover{
+  background-color: #ecf7ff;
+  a{
+    color: #0266a9;
+    text-decoration: underline;
+  }
+}

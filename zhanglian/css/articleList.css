@@ -13,32 +13,38 @@
       width: 660px;
       margin-right: 20px;
       padding: 0 10px; }
+      .main .mainWrap .left-1 .list:hover {
+        background-color: #ecf7ff; }
+        .main .mainWrap .left-1 .list:hover .right_1 a {
+          color: #0266a9 !important;
+          text-decoration: underline; }
       .main .mainWrap .left-1 .list {
         padding: 12px 0;
         border-bottom: 1px solid #f3f3f3; }
-        .main .mainWrap .left-1 .list > a .list-left {
+        .main .mainWrap .left-1 .list .list-left {
           margin-right: 12px; }
-          .main .mainWrap .left-1 .list > a .list-left img {
+          .main .mainWrap .left-1 .list .list-left img {
             width: 210px; }
-        .main .mainWrap .left-1 .list > a .list-right {
+        .main .mainWrap .left-1 .list .list-right {
           width: 370px; }
-          .main .mainWrap .left-1 .list > a .list-right .right_1 {
+          .main .mainWrap .left-1 .list .list-right .right_1 {
             font-size: 18px;
-            color: #4c4c4c;
             font-weight: bold;
             margin-bottom: 7.5px;
             margin-top: 6px; }
-          .main .mainWrap .left-1 .list > a .list-right .right_2 {
+            .main .mainWrap .left-1 .list .list-right .right_1 a {
+              color: #4c4c4c; }
+          .main .mainWrap .left-1 .list .list-right .right_2 {
             font-size: 14px;
             color: #999999;
             margin-bottom: 10px; }
-            .main .mainWrap .left-1 .list > a .list-right .right_2 p {
+            .main .mainWrap .left-1 .list .list-right .right_2 p {
               line-height: 20px;
               text-align: justify; }
-          .main .mainWrap .left-1 .list > a .list-right .right_3 {
+          .main .mainWrap .left-1 .list .list-right .right_3 {
             font-size: 12px;
             color: #999999; }
-            .main .mainWrap .left-1 .list > a .list-right .right_3 span {
+            .main .mainWrap .left-1 .list .list-right .right_3 span {
               margin-right: 15px; }
       .main .mainWrap .left-1 .list_1 {
         padding: 16px 0;
