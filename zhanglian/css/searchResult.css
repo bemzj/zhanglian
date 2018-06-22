@@ -1,0 +1,133 @@
+.main {
+  background-color: #f7f7f7; }
+  .main .mainTitle {
+    margin-top: 22px; }
+  .main .mainWrap {
+    padding: 22px 0 50px 0; }
+    .main .mainWrap > div {
+      background-color: #fff;
+      -webkit-box-shadow: 0 0 10px rgba(202, 202, 204, 0.4);
+      -moz-box-shadow: 0 0 10px rgba(202, 202, 204, 0.4);
+      box-shadow: 0 0 10px rgba(202, 202, 204, 0.4); }
+    .main .mainWrap .left-1 {
+      width: 660px;
+      margin-right: 20px;
+      padding: 0 10px;
+      position: relative; }
+      .main .mainWrap .left-1 .list {
+        padding: 12px 0;
+        border-bottom: 1px solid #f3f3f3; }
+        .main .mainWrap .left-1 .list > a .list-left {
+          margin-right: 12px; }
+          .main .mainWrap .left-1 .list > a .list-left img {
+            width: 210px; }
+        .main .mainWrap .left-1 .list > a .list-right {
+          width: 370px; }
+          .main .mainWrap .left-1 .list > a .list-right .right_1 {
+            font-size: 18px;
+            color: #4c4c4c;
+            font-weight: bold;
+            margin-bottom: 7.5px;
+            margin-top: 6px; }
+          .main .mainWrap .left-1 .list > a .list-right .right_2 {
+            font-size: 14px;
+            color: #999999;
+            margin-bottom: 10px; }
+            .main .mainWrap .left-1 .list > a .list-right .right_2 p {
+              line-height: 20px;
+              text-align: justify; }
+          .main .mainWrap .left-1 .list > a .list-right .right_3 {
+            font-size: 12px;
+            color: #999999; }
+            .main .mainWrap .left-1 .list > a .list-right .right_3 span {
+              margin-right: 15px; }
+      .main .mainWrap .left-1 .list_1 {
+        padding: 16px 0;
+        border-bottom: 1px solid #f3f3f3; }
+        .main .mainWrap .left-1 .list_1 .l1-title {
+          font-weight: bold;
+          margin-bottom: 11px; }
+          .main .mainWrap .left-1 .list_1 .l1-title a {
+            font-size: 18px;
+            color: #4c4c4c; }
+        .main .mainWrap .left-1 .list_1 .l1-img {
+          margin-bottom: 12px; }
+          .main .mainWrap .left-1 .list_1 .l1-img > a {
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+            width: 210px;
+            overflow: hidden;
+            float: left;
+            margin-right: 5px; }
+            .main .mainWrap .left-1 .list_1 .l1-img > a img {
+              width: 100%; }
+          .main .mainWrap .left-1 .list_1 .l1-img > a:last-child {
+            margin-right: 0; }
+        .main .mainWrap .left-1 .list_1 .l1-detail {
+          font-size: 12px;
+          color: #999999; }
+          .main .mainWrap .left-1 .list_1 .l1-detail span {
+            margin-right: 15px; }
+      .main .mainWrap .left-1 .clickMore {
+        position: absolute;
+        bottom: -60px;
+        left: 50%;
+        margin-left: -28px; }
+        .main .mainWrap .left-1 .clickMore a {
+          font-size: 14px;
+          color: #949494;
+          position: relative; }
+        .main .mainWrap .left-1 .clickMore a::before {
+          content: '';
+          display: block;
+          width: 60px;
+          height: 1px;
+          background-color: #949494;
+          position: absolute;
+          top: 50%;
+          left: -80px; }
+        .main .mainWrap .left-1 .clickMore a::after {
+          content: '';
+          display: block;
+          width: 60px;
+          height: 1px;
+          background-color: #949494;
+          position: absolute;
+          top: 50%;
+          right: -80px; }
+    .main .mainWrap .right-1 {
+      width: 380px;
+      height: 360px; }
+      .main .mainWrap .right-1 .right-title {
+        padding: 0 16px;
+        padding-top: 23px;
+        padding-bottom: 10px;
+        position: relative; }
+        .main .mainWrap .right-1 .right-title button {
+          width: 16px;
+          height: 16px;
+          background: url("../images/delete01.png") no-repeat center;
+          background-size: 100% auto;
+          position: absolute;
+          right: 16px;
+          top: 23px;
+          cursor: pointer; }
+      .main .mainWrap .right-1 .right-cont {
+        font-size: 14px;
+        color: #4c4c4c;
+        padding: 0 16px; }
+        .main .mainWrap .right-1 .right-cont > a {
+          display: inline-block;
+          line-height: 28px;
+          padding: 0 22px;
+          margin-bottom: 12px;
+          margin-right: 8px;
+          font-size: 14px;
+          color: #808080;
+          border: 1px solid #cdcdcd;
+          -webkit-border-radius: 28px;
+          -moz-border-radius: 28px;
+          border-radius: 28px; }
+
+/*# sourceMappingURL=searchResult.css.map */

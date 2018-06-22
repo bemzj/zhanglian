@@ -10,6 +10,7 @@
 		<link rel="stylesheet" type="text/css" href="https://cdn.bootcss.com/Swiper/4.3.0/css/swiper.min.css">
 		<link rel="stylesheet" type="text/css" href="./css/font-awesome.min.css">
 		<link rel="stylesheet" type="text/css" href="./css/main.css">
+		<link rel="stylesheet" type="text/css" href="./css/index.css">
 		<!-- jQuery -->
 		<script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
 		<script type="text/javascript" src='https://cdn.bootcss.com/Swiper/4.3.0/js/swiper.min.js'></script>
@@ -51,7 +52,7 @@
 					<a href="javascript:;">法制专题</a>
 				</li>
 				<li>
-					<a href="javascript:;">更多 <i class='fa fa-caret-down fa-lg'></i></a>
+					<a href="javascript:;" class="more01">更多 <i class='fa fa-caret-down fa-lg'></i></a>
 				</li>
 			</ul>
 			<!-- 搜索框 -->
@@ -60,7 +61,32 @@
 				<img src="./images/icon-search.png" alt="" class="icon-search" />
 			</div>
 			<!-- 账号 -->
-			<p class="user-num">136***96 <i class='fa fa-caret-down fa-lg'></i></p>
+			<p class="user-num logining">136***96 <i class='fa fa-caret-down fa-lg'></i></p>
+		</nav>
+		<nav class="header-nav1">
+			<div class="nav1-wrap div1060">
+				<div class="nav1-title">
+					<span>全部频道</span>
+				</div>
+				<div class="nav1-tags clearfloat">
+					<div><a href="###">新闻</a></div>
+					<div><a href="###">快递</a></div>
+					<div><a href="###">园区</a></div>
+					<div><a href="###">金融</a></div>
+					<div><a href="###">冷链</a></div>
+					<div><a href="###">专题</a></div>
+					<div><a href="###">法制专题</a></div>
+					<div><a href="###">原创</a></div>
+					<div><a href="###">AI</a></div>
+					<div><a href="###">智能家居</a></div>
+					<div><a href="###">社会</a></div>
+					<div><a href="###">法制专题</a></div>
+					<div><a href="###">城市</a></div>
+					<div><a href="###">游戏</a></div>
+					<div><a href="###">股票</a></div>
+					<div><a href="###">法制专题</a></div>
+				</div>
+			</div>
 		</nav>
 	</div>
 	<!-- 内容 -->
@@ -308,7 +334,91 @@
 		</div>
 	</div>
 </div>
-
+<div id="login" style="display:none;" class="loginBoxes">
+	<div class="login">
+		<div class="loginOut loginPhone">
+			<div class="phoneBox">
+                <div class="loginName loginNamel">
+                    <p>登录</p>
+                    <button></button>
+                </div>
+				<div class="inputBoxOut">
+					<div class="inputBox">
+						<input type="text" placeholder="手机号"/>
+					</div>
+				</div>
+				<div class="inputBoxOut clearfloat">
+					<div class="inputBox floatl">
+						<input type="text" placeholder="验证码"/>
+					</div>
+					<div class="inputBox floatr">
+						<button id="sendCode" >发送验证码</button>
+					</div>
+				</div>
+				<div class="inputBoxOut">
+					<div class="inputBox now">
+						<button>立即登录</button>
+					</div>
+				</div>
+                <div class="inputBoxOut">
+                    <div class="inputBox wxLogin">
+                        <button>微信登录</button>
+                    </div>
+                </div>
+			</div>
+		</div>
+        <div class="loginOut loginWx"  style="display: none">
+            <div class="phoneBox">
+                <div class="loginName loginNamel">
+                    <p>登录</p>
+                    <button></button>
+                </div>
+                <div class="wxName">
+                    <p>微信登录</p>
+                </div>
+                <div class="erCodeBox">
+                    <div class="ercode">
+                        <img src="images/ercode.jpg"/>
+                    </div>
+                </div>
+                <div class="wxp">
+                    <p>请使用微信扫描二维码登录</p>
+                    <p>“掌链传媒”</p>
+                </div>
+            </div>
+        </div>
+	</div>
+</div>
+<div id="count" class="loginBoxes">
+    <div class="login">
+        <div class="loginOut loginPhone">
+            <div class="phoneBox">
+                <div class="loginName loginNameC">
+                    <p>账号关联</p>
+                    <button></button>
+                </div>
+                <div class="inputBoxOut">
+                    <div class="inputBox">
+                        <input type="text" placeholder="手机号"/>
+                    </div>
+                </div>
+                <div class="inputBoxOut clearfloat">
+                    <div class="inputBox floatl">
+                        <input type="text" placeholder="验证码"/>
+                    </div>
+                    <div class="inputBox floatr">
+                        <button id="sendCode1" >发送验证码</button>
+                    </div>
+                </div>
+                <div class="inputBoxOut">
+                    <div class="inputBox now">
+                        <button>立即关联</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 <script type="text/javascript">
 $(function(){
 
@@ -323,7 +433,27 @@ $(function(){
         prevEl: '.btn-prev-1',
       },
     });
+	
+	// 更多展现导航栏
+	$('.more01,.header-nav1').hover(function () {
+	        if($('.header-nav1').css('display') == 'none'){
+                $('.header-nav1').stop().slideDown();
+			}
+        }
+	);
+	$('.header-nav').hover(function () {
+		if($('.header-nav1').css('display') == 'block'){
+            $('.header-nav1').stop().slideDown();
+		}
+    });
+	$('.home').hover(function () {
+        if($('.header-nav1').css('display') == 'block'){
+            $('.header-nav1').stop().slideUp();
+        }
+    })
+
 })
 </script>
+<script type="text/javascript" src="js/index.js" ></script>
 </body>
 </html>

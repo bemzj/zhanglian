@@ -47,5 +47,10 @@ $(function(){
     //修改昵称
     $('#name').on('input',function () {
         $(this).next('span').text($(this).val().length+'/10');
-    })
+    });
+
+    $('.myexchange').click(function () {
+        $('.main').hide();
+        $('#main').show();
+    });
 });

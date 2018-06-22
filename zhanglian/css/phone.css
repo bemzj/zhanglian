@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import url(searchResult.css);
 body {
   background-color: #f7f7f7; }
 
@@ -6,24 +7,24 @@ body {
   min-height: 520px;
   margin: 20px auto 50px;
   background-color: white; }
-  #main .main {
+  #main .mainBody {
     width: 360px;
     margin: 0 auto; }
-    #main .main .exchangePhone {
+    #main .mainBody .exchangePhone {
       font-size: 24px;
       line-height: 24px;
       color: #323232;
       padding: 40px 0; }
-    #main .main .inputBoxOut {
+    #main .mainBody .inputBoxOut {
       width: 100%;
       margin-bottom: 20px; }
-    #main .main .inputBox {
+    #main .mainBody .inputBox {
       width: 100%;
       box-sizing: border-box;
       -webkit-box-sizing: border-box;
       height: 44px;
       border: 1px solid #e7e7e7; }
-      #main .main .inputBox input {
+      #main .mainBody .inputBox input {
         padding: 0 18px;
         border: 0;
         height: 42px;
@@ -31,77 +32,77 @@ body {
         width: 100%;
         box-sizing: border-box;
         -webkit-box-sizing: border-box; }
-      #main .main .inputBox input::placeholder {
+      #main .mainBody .inputBox input::placeholder {
         color: #c9c9c9; }
-      #main .main .inputBox input::-webkit-input-placeholder {
+      #main .mainBody .inputBox input::-webkit-input-placeholder {
         color: #c9c9c9; }
-      #main .main .inputBox input::-moz-placeholder {
+      #main .mainBody .inputBox input::-moz-placeholder {
         color: #c9c9c9; }
-      #main .main .inputBox inpuy:-ms-input-placeholder {
+      #main .mainBody .inputBox inpuy:-ms-input-placeholder {
         color: #c9c9c9; }
-      #main .main .inputBox button {
+      #main .mainBody .inputBox button {
         width: 100%;
         height: 100%;
         font-size: 14px;
         background-color: transparent;
         cursor: pointer; }
-    #main .main .now {
+    #main .mainBody .now {
       background-color: #006eff;
       border-color: #006eff; }
-      #main .main .now button {
+      #main .mainBody .now button {
         color: white;
         font-size: 16px; }
-    #main .main .floatl {
+    #main .mainBody .floatl {
       width: 230px; }
-    #main .main .floatr {
+    #main .mainBody .floatr {
       width: 110px; }
-    #main .main .echangeBox .exchangePhone {
+    #main .mainBody .echangeBox .exchangePhone {
       padding: 60px 0 37px; }
-    #main .main .echangeBox .hbLeft {
+    #main .mainBody .echangeBox .hbLeft {
       width: auto;
       font-size: 14px;
       line-height: 14px;
       padding: 18px 14px 18px 0;
       color: #4d4d4d; }
-    #main .main .echangeBox .hbRight {
+    #main .mainBody .echangeBox .hbRight {
       position: relative; }
-      #main .main .echangeBox .hbRight > div {
+      #main .mainBody .echangeBox .hbRight > div {
         width: 50px;
         height: 50px;
         overflow: hidden;
         border-radius: 50%;
         position: relative; }
-        #main .main .echangeBox .hbRight > div img {
+        #main .mainBody .echangeBox .hbRight > div img {
           width: 100%; }
-      #main .main .echangeBox .hbRight input {
+      #main .mainBody .echangeBox .hbRight input {
         position: absolute;
         left: 0;
         top: 0;
         width: 100%;
         height: 100%;
         opacity: 0; }
-    #main .main .echangeBox .headBox {
+    #main .mainBody .echangeBox .headBox {
       margin-bottom: 16px; }
-    #main .main .echangeBox .hbRight::after {
+    #main .mainBody .echangeBox .hbRight::after {
       position: absolute;
       content: "上传修改";
       left: 60px;
       bottom: 0px;
       font-size: 12px;
       color: #999999; }
-    #main .main .echangeBox .myName {
+    #main .mainBody .echangeBox .myName {
       position: relative; }
-      #main .main .echangeBox .myName .inputBox {
+      #main .mainBody .echangeBox .myName .inputBox {
         width: 318px;
         margin-left: 42px;
         position: relative; }
-        #main .main .echangeBox .myName .inputBox span {
+        #main .mainBody .echangeBox .myName .inputBox span {
           position: absolute;
           right: 10px;
           bottom: 2px;
           font-size: 12px;
           color: #C9C9C9; }
-    #main .main .echangeBox .myName::after {
+    #main .mainBody .echangeBox .myName::after {
       content: "昵称";
       color: #4c4c4c;
       font-size: 14px;
@@ -118,5 +119,60 @@ body {
   background-color: white;
   margin: -200px 0 0 -200px;
   box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.2); }
+
+.main .mainWrap > .left-1 {
+  box-shadow: 0px 0px 0px;
+  background-color: transparent;
+  margin-left: 20px;
+  margin-right: 0;
+  padding: 0; }
+  .main .mainWrap > .left-1 .artBox {
+    background-color: white;
+    -webkit-box-shadow: 0 0 10px rgba(202, 202, 204, 0.4);
+    -moz-box-shadow: 0 0 10px rgba(202, 202, 204, 0.4);
+    box-shadow: 0 0 10px rgba(202, 202, 204, 0.4);
+    padding: 0 10px; }
+
+.main .mainWrap {
+  padding-top: 0 !important; }
+
+.main .mainWrap .right-1 {
+  width: 300px;
+  height: 287px;
+  margin-top: 22px;
+  margin-left: 40px; }
+  .main .mainWrap .right-1 .myHeads {
+    width: 118px;
+    height: 118px;
+    overflow: hidden;
+    margin: 28px auto 24px; }
+    .main .mainWrap .right-1 .myHeads img {
+      width: 100%; }
+  .main .mainWrap .right-1 .myname {
+    font-size: 22px;
+    line-height: 22px;
+    text-align: center;
+    color: #4d4d4d; }
+  .main .mainWrap .right-1 .myphone {
+    color: #4d4d4d;
+    margin-top: 14px;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center; }
+  .main .mainWrap .right-1 .myexchange {
+    width: 100px;
+    margin: 12px auto 0;
+    height: 36px; }
+    .main .mainWrap .right-1 .myexchange button {
+      width: 100%;
+      height: 100%;
+      box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      border: 1px solid #d7d7d7;
+      color: #999999;
+      font-size: 14px;
+      cursor: pointer;
+      background-color: white; }
 
 /*# sourceMappingURL=phone.css.map */
