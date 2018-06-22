@@ -16,10 +16,16 @@
       margin-right: 20px;
       padding: 0 10px;
       position: relative;
+      .list:hover{
+        background-color: #ecf7ff;
+        .right_1 a{
+          color: #0266a9!important;
+          text-decoration: underline;
+        }
+      }
       .list{
         padding: 12px 0;
         border-bottom: 1px solid #f3f3f3;
-        >a{
           .list-left{
             margin-right: 12px;
             img{
@@ -30,10 +36,13 @@
             width: 370px;
             .right_1{
               font-size: 18px;
-              color: #4c4c4c;
+
               font-weight: bold;
               margin-bottom: 7.5px;
               margin-top: 6px;
+              a {
+                color: #4c4c4c;
+              }
             }
             .right_2{
               font-size: 14px;
@@ -52,7 +61,7 @@
               }
             }
           }
-        }
+
       }
       .list_1{
         padding: 16px 0;
