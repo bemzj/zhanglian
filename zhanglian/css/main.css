@@ -28,6 +28,37 @@ body,html{background-color: #f7f7f7;overflow-x: hidden;min-width:1200px;}
 .icon-search{position: absolute;width: 16px;height: 16px;right: 10px;top:50%;margin-top: -8px;}
 .user-num{font-size: 14px;color: #ffffff;margin-left: 14px;cursor: pointer;}
 .bodyBox {width: 1060px; margin: 0 auto; }
+.header-nav1 {
+    width: 100%;
+    background-color: #006eff;
+    position: relative;
+    z-index: 100;
+    font-size: 14px;
+    color: #666666;
+    border-top: 1px solid #4486b2;
+    display: none; }
+.header-nav1 .nav1-wrap {
+    padding: 1px; }
+.header-nav1 .nav1-wrap .nav1-title {
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-bottom: 26px; }
+.header-nav1 .nav1-wrap .nav1-tags {
+    margin-bottom: 50px; }
+.header-nav1 .nav1-wrap .nav1-tags > div {
+    float: left;
+    width: 120px;
+    line-height: 36px;
+    text-align: center;
+    background-color: #ffffff;
+    margin-right: 8px;
+    margin-bottom: 8px; }
+.header-nav1 .nav1-wrap .nav1-tags > div a {
+    display: block;
+    font-size: 14px;
+    color: #666666; }
 /*<!-- 底部 -->*/
 .footer{width: 1920px;margin: 0 auto 0;background-color: #222c3a;padding: 39px 0 34px;}
 .footer-nav{text-align: center;font-size: 12px;}
@@ -91,7 +122,7 @@ body,html{background-color: #f7f7f7;overflow-x: hidden;min-width:1200px;}
 .hot-article-list-right p{font-size: 14px;color: #666666;padding: 0;}
 .hot-article-list-right i{font-size: 12px;color: #999999;display: inline-block;margin-top: 5px;}
 
-
+.borderBox{-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;}
 
 
 

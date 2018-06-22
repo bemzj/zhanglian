@@ -51,7 +51,7 @@
 					<a href="javascript:;">法制专题</a>
 				</li>
 				<li>
-					<a href="javascript:;">更多 <i class='fa fa-caret-down fa-lg'></i></a>
+					<a href="javascript:;" class="more01">更多 <i class='fa fa-caret-down fa-lg'></i></a>
 				</li>
 			</ul>
 			<!-- 搜索框 -->
@@ -61,6 +61,31 @@
 			</div>
 			<!-- 账号 -->
 			<p class="user-num">136***96 <i class='fa fa-caret-down fa-lg'></i></p>
+		</nav>
+		<nav class="header-nav1">
+			<div class="nav1-wrap div1060">
+				<div class="nav1-title">
+					<span>全部频道</span>
+				</div>
+				<div class="nav1-tags clearfloat">
+					<div><a href="###">新闻</a></div>
+					<div><a href="###">快递</a></div>
+					<div><a href="###">园区</a></div>
+					<div><a href="###">金融</a></div>
+					<div><a href="###">冷链</a></div>
+					<div><a href="###">专题</a></div>
+					<div><a href="###">法制专题</a></div>
+					<div><a href="###">原创</a></div>
+					<div><a href="###">AI</a></div>
+					<div><a href="###">智能家居</a></div>
+					<div><a href="###">社会</a></div>
+					<div><a href="###">法制专题</a></div>
+					<div><a href="###">城市</a></div>
+					<div><a href="###">游戏</a></div>
+					<div><a href="###">股票</a></div>
+					<div><a href="###">法制专题</a></div>
+				</div>
+			</div>
 		</nav>
 	</div>
 	<!-- 内容 -->
@@ -323,6 +348,25 @@ $(function(){
         prevEl: '.btn-prev-1',
       },
     });
+	
+	// 更多展现导航栏
+	$('.more01,.header-nav1').hover(function () {
+	        if($('.header-nav1').css('display') == 'none'){
+                $('.header-nav1').stop().slideDown();
+			}
+        }
+	);
+	$('.header-nav').hover(function () {
+		if($('.header-nav1').css('display') == 'block'){
+            $('.header-nav1').stop().slideDown();
+		}
+    });
+	$('.home').hover(function () {
+        if($('.header-nav1').css('display') == 'block'){
+            $('.header-nav1').stop().slideUp();
+        }
+    })
+
 })
 </script>
 </body>
