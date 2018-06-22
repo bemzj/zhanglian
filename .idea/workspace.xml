@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7b73c38b-bfc3-465e-acd6-34d588d03f83" name="Default" comment="" />
+    <list default="true" id="7b73c38b-bfc3-465e-acd6-34d588d03f83" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/zhanglian/aboutUs.html" beforeDir="false" afterPath="$PROJECT_DIR$/zhanglian/aboutUs.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhanglian/css/aboutUs.css" beforeDir="false" afterPath="$PROJECT_DIR$/zhanglian/css/aboutUs.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhanglian/css/aboutUs.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/zhanglian/css/aboutUs.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhanglian/css/aboutUs.scss" beforeDir="false" afterPath="$PROJECT_DIR$/zhanglian/css/aboutUs.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhanglian/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/zhanglian/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhanglian/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/zhanglian/index.html" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -29,11 +36,11 @@
                 </provider>
               </entry>
             </file>
-            <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
+            <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
               <entry file="file://$PROJECT_DIR$/zhanglian/css/main.css">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="620">
-                    <caret line="123" lean-forward="true" selection-start-line="123" selection-end-line="123" />
+                  <state relative-caret-position="719">
+                    <caret line="170" column="1" selection-start-line="170" selection-start-column="1" selection-end-line="170" selection-end-column="1" />
                     <folding>
                       <element signature="e#1972#2144#0" />
                       <element signature="e#2171#2192#0" />
@@ -76,6 +83,15 @@
                 </provider>
               </entry>
             </file>
+            <file leaf-file-name="theColumn.css" pinned="false" current-in-tab="false">
+              <entry file="file://$PROJECT_DIR$/zhanglian/css/theColumn.css">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="486">
+                    <caret line="48" column="9" lean-forward="true" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
+                  </state>
+                </provider>
+              </entry>
+            </file>
             <file leaf-file-name="articleList.scss" pinned="false" current-in-tab="false">
               <entry file="file://$PROJECT_DIR$/zhanglian/css/articleList.scss">
                 <provider selected="true" editor-type-id="text-editor">
@@ -85,11 +101,11 @@
                 </provider>
               </entry>
             </file>
-            <file leaf-file-name="aboutUs.scss" pinned="false" current-in-tab="true">
+            <file leaf-file-name="aboutUs.scss" pinned="false" current-in-tab="false">
               <entry file="file://$PROJECT_DIR$/zhanglian/css/aboutUs.scss">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="686">
-                    <caret line="48" column="21" selection-start-line="48" selection-start-column="21" selection-end-line="48" selection-end-column="21" />
+                  <state relative-caret-position="-665">
+                    <caret line="16" column="18" lean-forward="true" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
                   </state>
                 </provider>
               </entry>
@@ -110,8 +126,8 @@
             <file leaf-file-name="theColumn.scss" pinned="false" current-in-tab="false">
               <entry file="file://$PROJECT_DIR$/zhanglian/css/theColumn.scss">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="663">
-                    <caret line="69" column="1" selection-start-line="69" selection-start-column="1" selection-end-line="69" selection-end-column="1" />
+                  <state relative-caret-position="244">
+                    <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="35" selection-end-column="1" />
                   </state>
                 </provider>
               </entry>
@@ -136,16 +152,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/zhanglian/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="589">
-              <caret line="336" column="31" lean-forward="true" selection-start-line="336" selection-start-column="31" selection-end-line="336" selection-end-column="31" />
+            <state relative-caret-position="249">
+              <caret line="130" column="38" selection-start-line="130" selection-start-column="28" selection-end-line="130" selection-end-column="38" />
               <folding>
                 <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#nav#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
               </folding>
             </state>
           </provider>
@@ -201,8 +216,8 @@
       <file leaf-file-name="theColumn.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/zhanglian/theColumn.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="95" column="16" lean-forward="true" selection-start-line="95" selection-start-column="16" selection-end-line="98" selection-end-column="22" />
+            <state relative-caret-position="304">
+              <caret line="209" column="24" lean-forward="true" selection-start-line="209" selection-start-column="24" selection-end-line="211" selection-end-column="30" />
               <folding>
                 <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#nav#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -232,14 +247,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="aboutUs.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="aboutUs.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/zhanglian/aboutUs.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="513">
-              <caret line="112" column="38" selection-start-line="112" selection-start-column="32" selection-end-line="112" selection-end-column="38" />
+            <state relative-caret-position="226">
+              <caret line="143" column="51" lean-forward="true" selection-start-line="143" selection-start-column="51" selection-end-line="143" selection-end-column="51" />
               <folding>
                 <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#nav#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#div#5;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#div#0;n#div#1;n#div#7;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
               </folding>
             </state>
           </provider>
@@ -298,6 +316,9 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>right-cont</find>
+      <find>gudie-news-list</find>
+      <find>gudie-list</find>
+      <find>click-more</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -308,8 +329,6 @@
       <list>
         <option value="$PROJECT_DIR$/zhanglian/css/commonality.scss" />
         <option value="$PROJECT_DIR$/articleList.html" />
-        <option value="$PROJECT_DIR$/zhanglian/index.html" />
-        <option value="$PROJECT_DIR$/zhanglian/css/main.css" />
         <option value="$PROJECT_DIR$/zhanglian/articleList.html" />
         <option value="$PROJECT_DIR$/zhanglian/css/articleList.scss" />
         <option value="$PROJECT_DIR$/zhanglian/searchResult.html" />
@@ -321,8 +340,10 @@
         <option value="$PROJECT_DIR$/zhanglian/css/theColumn.scss" />
         <option value="$PROJECT_DIR$/zhanglian/contentPage.html" />
         <option value="$PROJECT_DIR$/zhanglian/css/contentPage.scss" />
-        <option value="$PROJECT_DIR$/zhanglian/aboutUs.html" />
         <option value="$PROJECT_DIR$/zhanglian/css/aboutUs.scss" />
+        <option value="$PROJECT_DIR$/zhanglian/aboutUs.html" />
+        <option value="$PROJECT_DIR$/zhanglian/index.html" />
+        <option value="$PROJECT_DIR$/zhanglian/css/main.css" />
       </list>
     </option>
   </component>
@@ -336,8 +357,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="997" />
-    <option name="y" value="42" />
+    <option name="x" value="903" />
+    <option name="y" value="27" />
     <option name="width" value="837" />
     <option name="height" value="994" />
   </component>
@@ -363,6 +384,13 @@
               <item name="zhanglian" type="462c0819:PsiDirectoryNode" />
               <item name="zhanglian" type="462c0819:PsiDirectoryNode" />
               <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zhanglian" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zhanglian" type="462c0819:PsiDirectoryNode" />
+              <item name="zhanglian" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="theColumn.scss" type="620a8d5e:NestingTreeNode" />
             </path>
           </expand>
           <select />
@@ -405,18 +433,18 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1529632287517</updated>
-      <workItem from="1529632289994" duration="23145000" />
+      <workItem from="1529632289994" duration="30029000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23145000" />
+    <option name="totallyTimeSpent" value="30029000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="997" y="42" width="837" height="994" extended-state="0" />
+    <frame x="903" y="27" width="837" height="994" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.31539425" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.31414267" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
@@ -442,16 +470,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/zhanglian/css/commonality.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
-          <folding>
-            <element signature="e#12#33#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/zhanglian/css/commonality.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
@@ -463,21 +481,6 @@
             <element signature="e#438#468#0" />
             <element signature="e#516#707#0" />
             <element signature="e#759#841#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zhanglian/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="620">
-          <caret line="123" lean-forward="true" selection-start-line="123" selection-end-line="123" />
-          <folding>
-            <element signature="e#1972#2144#0" />
-            <element signature="e#2171#2192#0" />
-            <element signature="e#2233#2357#0" />
-            <element signature="e#2397#2427#0" />
-            <element signature="e#2475#2666#0" />
-            <element signature="e#2718#2800#0" />
           </folding>
         </state>
       </provider>
@@ -540,13 +543,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/zhanglian/css/theColumn.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="69" column="1" selection-start-line="69" selection-start-column="1" selection-end-line="69" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/zhanglian/css/video.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
@@ -598,18 +594,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/zhanglian/theColumn.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="95" column="16" lean-forward="true" selection-start-line="95" selection-start-column="16" selection-end-line="98" selection-end-column="22" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#nav#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#p#1;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/zhanglian/css/contentPage.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="551">
@@ -632,16 +616,72 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/zhanglian/aboutUs.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="143" column="51" lean-forward="true" selection-start-line="143" selection-start-column="51" selection-end-line="143" selection-end-column="51" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#nav#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#5;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#0;n#div#1;n#div#7;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhanglian/theColumn.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="209" column="24" lean-forward="true" selection-start-line="209" selection-start-column="24" selection-end-line="211" selection-end-column="30" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#nav#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#p#1;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhanglian/css/aboutUs.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-665">
+          <caret line="16" column="18" lean-forward="true" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/zhanglian/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="336" column="31" lean-forward="true" selection-start-line="336" selection-start-column="31" selection-end-line="336" selection-end-column="31" />
+        <state relative-caret-position="249">
+          <caret line="130" column="38" selection-start-line="130" selection-start-column="28" selection-end-line="130" selection-end-column="38" />
           <folding>
             <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#nav#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhanglian/css/theColumn.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="48" column="9" lean-forward="true" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhanglian/css/commonality.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+          <folding>
+            <element signature="e#12#33#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhanglian/css/theColumn.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="35" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -652,21 +692,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/zhanglian/aboutUs.html">
+    <entry file="file://$PROJECT_DIR$/zhanglian/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="112" column="38" selection-start-line="112" selection-start-column="32" selection-end-line="112" selection-end-column="38" />
+        <state relative-caret-position="719">
+          <caret line="170" column="1" selection-start-line="170" selection-start-column="1" selection-end-line="170" selection-end-column="1" />
           <folding>
-            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#nav#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="e#1972#2144#0" />
+            <element signature="e#2171#2192#0" />
+            <element signature="e#2233#2357#0" />
+            <element signature="e#2397#2427#0" />
+            <element signature="e#2475#2666#0" />
+            <element signature="e#2718#2800#0" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zhanglian/css/aboutUs.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="686">
-          <caret line="48" column="21" selection-start-line="48" selection-start-column="21" selection-end-line="48" selection-end-column="21" />
         </state>
       </provider>
     </entry>
